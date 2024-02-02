@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+display: flex;
+}
+
+.nav-bar li a {
+    display: block;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: #5be50c;
+}
+div{
+    background-color: rgb(243, 243, 243);
+}
+#one{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-repeat: none;
+    text-align: left;
+    background-image: url(image1.png);
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 100px;
+}
+#two{
+
+    
+    width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(135, 142, 131);
+  cursor: pointer;
+}
+#two:hover{
+    background-color: red;
+}
+.zero{
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+.five{
+    border: dotted;
+    background-image: url(USDA-Organic.jpg);
+    background-color: rgb(12, 43, 43);
+    height: 180px;
+    width: auto;
+    text-align: center;
+        
+}
+.six{
+    text-align: left;
+
+}
+footer{
+    text-align: left;
+}
+.social-icon{
+    color: blue;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.social-icon i{
+    color: blue;
+    margin-left: 15px;
+    line-height: 60px;
+}
